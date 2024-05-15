@@ -7,8 +7,8 @@ let colorHighlight = 'purple';
 
 function pageStyle() {
         page.style.backgroundColor = colorHighlight;
-        page.style.color = 'white';
-        page.style.fontWeight = 'bolder';
+        page.style.color = 'yellow';
+        page.style.fontWeight = '900';
 };
 
 

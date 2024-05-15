@@ -20,6 +20,12 @@ body {
 
 }
 
+h1 {
+        font-weight: 900;
+        color: purple;
+        margin-top: 50px;
+}
+
 nav {
         width: 90%;
         /* background-color: red; */
@@ -31,10 +37,12 @@ nav {
 a {
         box-sizing: border-box;
         background-color: rgb(137, 137, 241);
+        color: white;
         text-decoration: none;
         width: 30%;
         padding: 15px 5px;
         border-radius: 5px;
+        font-weight: 500;
 
         display: flex;
         flex-direction: column;
@@ -46,8 +54,12 @@ a {
 #link {
         width: 50%;
         background-color: pink;
+        color: purple;
         padding: 20px;
+        font-size: 1.3rem;
 }
+
+
 
 
 
@@ -62,6 +74,7 @@ a {
 
         #link {
                 width: 20%;
+                font-size: 1.2rem;
         }
 
 }
